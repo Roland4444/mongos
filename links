@@ -1,0 +1,20 @@
+Create tables in MONGO::
+https://databasefaqs.com/create-tables-in-mongodb/
+Java + Mongo::
+https://www.mongodb.com/resources/languages/java
+
+https://www.mongodb.com/developer/languages/java/java-setup-crud-operations/
+
+QUERYS::
+https://www.mongodb.com/docs/manual/reference/operator/query/?_ga=2.229448084.901543295.1716628455-902084240.1716628451
+https://merchant.webmoney.ru/receipts/?tid=1891960933&lang=en-US
+
+
+<<<
+  Bson filter = eq("secondName", "Pastushkov");
+            Bson updateOperation = set("group", "M-851");
+            UpdateResult updateResult = gradesCollection.updateOne(filter, updateOperation);
+            System.out.println("=> Updating the doc with {\"student_id\":10000}. Adding comment.");
+            System.out.println(gradesCollection.find(filter).first().toJson(prettyPrint));
+            System.out.println(updateResult);
+>>>
